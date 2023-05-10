@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane id="base" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.Controller">
+   <center>
+      <GridPane id="btnContainer" focusTraversable="true" prefHeight="300.0" stylesheets="@style.css" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.20001220703125" minWidth="0.0" prefWidth="81.25" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="523.2000122070312" minWidth="10.0" prefWidth="81.25" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="523.2000122070312" minWidth="10.0" prefWidth="81.25" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="523.2000122070312" minWidth="10.0" prefWidth="81.25" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="135.0" minHeight="0.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="135.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="135.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="135.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="135.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="135.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints />
+        </rowConstraints>
+         <children>
+            <Button id="clearBtn" fx:id="clearBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="C">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button id="expBtn" fx:id="expBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="xʸ" textAlignment="CENTER" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numSeven" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="7" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numFour" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="4" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numOne" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button id="signBtn" fx:id="signBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="+/-" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="numEight" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numFive" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="5" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numTwo" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numZero" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button id="logBtn" fx:id="logBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="log" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numNine" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numSix" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="6" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="numThree" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="3" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="decimalBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="." GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button id="divBtn" fx:id="divBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="/" GridPane.columnIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button id="mulBtn" fx:id="mulBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="×" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="20.0" />
+               </font>
+            </Button>
+            <Button id="minusBtn" fx:id="minusBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button id="plusBtn" fx:id="plusBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" stylesheets="@style.css" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button id="eqBtn" fx:id="eqBtn" mnemonicParsing="false" prefHeight="121.0" prefWidth="68.0" stylesheets="@style.css" text="=" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="30.0" />
+               </font>
+            </Button>
+            <Button id="sqrtBtn" fx:id="sqrtBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" text="√" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Georgia" size="24.0" />
+               </font>
+            </Button>
+            <Button id="delBtn" fx:id="delBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" text="⌫" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button id="trigBtn" fx:id="trigBtn" mnemonicParsing="false" prefHeight="53.0" prefWidth="68.0" text="Trig" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="SansSerif Regular" size="15.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="8.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </GridPane>
+   </center>
+   <top>
+      <VBox prefHeight="148.0" prefWidth="320.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label id="outputWin2" fx:id="outputWin2" alignment="BOTTOM_RIGHT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="64.0" prefWidth="320.0" stylesheets="@style.css" textAlignment="RIGHT">
+               <font>
+                  <Font name="SansSerif Regular" size="24.0" />
+               </font>
+               <padding>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </padding>
+            </Label>
+            <Label id="outputWin" fx:id="outputWin" alignment="BOTTOM_RIGHT" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="84.0" prefWidth="320.0" stylesheets="@style.css" text="0" textAlignment="RIGHT" VBox.vgrow="NEVER">
+               <font>
+                  <Font name="SansSerif Regular" size="48.0" />
+               </font>
+               <padding>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>

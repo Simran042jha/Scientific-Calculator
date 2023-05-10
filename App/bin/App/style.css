@@ -1,0 +1,101 @@
+.button, .menu-button {
+    -fx-background-color: linear-gradient(#f2f2f2, #eaeaea),
+                        linear-gradient(#fcfcfc 0%, #efefef 20%, #f2f1f1 100%),        
+                        linear-gradient(#e8e8e8 0%, #f2f3f5 50%);
+    -fx-background-radius: 30;
+    
+    -fx-border-radius: 30;
+    -fx-text-fill:#6f828e;
+    -fx-effect: dropshadow( gaussian , rgba(0, 0, 0, 0.3) , 6, 0.0 , 3 , 2.5 );
+}
+#popupBase{
+    -fx-border-radius: 20;
+    -fx-background-radius: 10;
+    -fx-background-insets: 0, 1;
+    -fx-background-color: #000000;
+}
+#popCos,#popCsc{
+    -fx-background-radius: 0;
+    -fx-background-color: #fbefd8;
+    -fx-border-radius: 0;
+}
+#popCos:hover,#popCsc:hover{
+    -fx-background-radius: 0;
+    -fx-background-color: #e4d7be;
+    -fx-border-radius: 0;
+}
+#popSec{
+    -fx-background-radius: 0 0 0 10;
+    -fx-background-color: #fbefd8;
+    -fx-border-radius: 0 0 0 10;
+}
+#popSec:hover{
+    -fx-background-radius: 0 0 0 10;
+    -fx-background-color: #e4d7be;
+    -fx-border-radius: 0 0 0 10;
+}
+#popSin{
+    -fx-background-radius: 10 0 0 0;
+    -fx-background-color: #fbefd8;
+    -fx-border-radius: 10 0 0 0;
+}
+#popSin:hover{
+    -fx-background-radius: 10 0 0 0;
+    -fx-background-color: #e4d7be;
+    -fx-border-radius: 10 0 0 0;
+}
+#popTan{
+    -fx-background-radius: 0 10 0 0;
+    -fx-background-color: #fbefd8;
+    -fx-border-radius: 0 10 0 0;
+}
+#popTan:hover{
+    -fx-background-radius: 0 10 0 0;
+    -fx-background-color: #e4d7be;
+    -fx-border-radius: 0 10 0 0;
+}
+#popCot{
+    -fx-background-radius: 0 0 10 0;
+    -fx-background-color: #fbefd8;
+    -fx-border-radius: 0 0 10 0;
+}
+#popCot:hover{
+    -fx-background-radius: 0 0 10 0;
+    -fx-background-color: #e4d7be;
+    -fx-border-radius: 0 0 10 0;
+}
+#clearBtn{
+    -fx-background-color: #fdb82c;
+    -fx-text-fill:#ffffff;
+    -fx-effect: dropshadow( gaussian , rgba(254, 191, 66, 0.4) , 6, 0.0 , 3 , 2.5 );
+}
+#eqBtn{
+    -fx-background-color: #a847f1;
+    -fx-text-fill:#ffffff;
+    -fx-effect: dropshadow( gaussian , rgb(172, 40, 255, 0.4) , 6, 0.0 , 3 , 2.5 );
+}
+
+#plusBtn, #minusBtn, #divBtn, #mulBtn{
+    -fx-background-color: #f1ddfe;
+
+}
+#logBtn, #expBtn, #sqrtBtn, #trigBtn, #signBtn{
+    -fx-background-color: #fbefd8;
+}
+
+#clearBtn{
+    -fx-background-color: linear-gradient(#fdb82c 0%, #fcc659 50%);
+}
+#outputWin{
+    -fx-alignment:bottom-right;
+    -fx-text-fill:#6f828e;
+    -fx-background-color: linear-gradient(#fefefe 0%, #f8f8f8 100%);
+}
+#outputWin2{
+    -fx-alignment:bottom-right;
+    -fx-text-fill:#8f9aa0;
+    -fx-background-color: #fefefe;
+}
+#btnContainer{
+    -fx-background-color: linear-gradient(#f8f8f8 0%, #e8ecee 100%);
+}
